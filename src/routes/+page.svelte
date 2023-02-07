@@ -133,7 +133,7 @@
 						name="emoji"
 						bind:value={textToCopy}
 						type="text"
-						class="tags-input-text"
+						class="tags-input-text u-width-full-line"
 						placeholder={'emojis'}
 					/>
 					<div class="options-list">

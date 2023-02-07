@@ -21,7 +21,6 @@
 			offset = idx;
 		}
 	};
-	$: console.log(paginationSliced);
 </script>
 
 <table class="table is-selected-columns-mobile">
