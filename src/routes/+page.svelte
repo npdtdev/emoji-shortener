@@ -37,6 +37,13 @@
 	};
 </script>
 
+<svelte:head>
+	<title>{`Home | ${$page.url.host}`}</title>
+	<meta
+		name="description"
+		content="Url shortener using emoji. Shorten your website links using emoji. Enter a website and some emojis to generate a shortened url with those emojis"
+	/>
+</svelte:head>
 <div class="card u-max-width-500">
 	<form
 		use:f
